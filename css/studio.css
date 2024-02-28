@@ -1,0 +1,138 @@
+@import url("./style.css");
+
+.section-one {
+	background: var(--navy-blue);
+	height: 600px;
+	display: flex;
+	justify-content: center;
+}
+
+.hero-section {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 48px;
+}
+
+.hero-section h1 {
+	width: 496px;
+	height: 120px;
+	font-weight: 700;
+	font-size: 56px;
+	line-height: 1.07143;
+	letter-spacing: 0.02em;
+	text-align: center;
+	color: var(--white);
+}
+
+.hero-section button {
+	width: 169px;
+	height: 56px;
+	padding: 16px 32px;
+	background: var(--iris);
+	border-radius: 4px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	color: var(--white);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.hero-section button:hover {
+	color: var(--green);
+	background: var(--slate);
+}
+
+.section-one-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-one-list-item h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+}
+
+.section-one-list-item p {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}
+
+.section-one-list-item {
+	width: 264px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.section-two {
+	display: flex;
+	flex-direction: column;
+	gap: 72px;
+}
+
+.section-two h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	text-align: center;
+}
+
+.section-two-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.section-tree {
+	background: var(--cloud);
+}
+
+.our-team-section {
+	display: flex;
+	flex-direction: column;
+}
+
+.our-team-section h2 {
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 1.11111;
+	letter-spacing: 0.02em;
+	text-transform: capitalize;
+	margin-bottom: 72px;
+	text-align: center;
+}
+
+.card-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.card {
+	border-radius: 0 0 4px 4px;
+	box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+	background: var(--white);
+	display: flex;
+	flex-direction: column;
+	gap: 32px;
+}
+
+.card-content {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	gap: 8px;
+	margin-bottom: 32px;
+}

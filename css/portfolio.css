@@ -1,0 +1,60 @@
+@import url("./style.css");
+
+.filters-section-list {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 40px;
+	white-space: nowrap;
+}
+
+.filters-section-list-button {
+	padding: 12px 24px;
+	border: 1px solid var(--cornflower);
+	border-radius: 4px;
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	background: var(--cloud);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.04em;
+	text-align: center;
+	color: var(--iris);
+}
+
+.filters-section-list-button:hover {
+	color: var(--white);
+	background: var(--ocean);
+	cursor: pointer;
+}
+
+.section-row-list {
+	display: flex;
+	justify-content: space-between;
+}
+
+.project-card {
+	border: 1px solid var(--cornflower);
+	background: var(--white);
+}
+
+.project-card-info {
+	display: flex;
+	flex-direction: column;
+	margin: 32px 0 32px 16px;
+}
+
+.project-card-info h2 {
+	font-weight: 500;
+	font-size: 20px;
+	line-height: 1.2;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+}
+
+.project-card-info span {
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--slate);
+}

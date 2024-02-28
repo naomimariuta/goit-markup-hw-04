@@ -1,0 +1,142 @@
+:root {
+	--iris: #4d5ae5;
+	--ocean: #404bbf;
+	--navy-blue: #2e2f42;
+	--green: #31d0aa;
+	--slate: #434455;
+	--light-slate: #8e8f99;
+	--cornflower: #e7e9fc;
+	--cloud: #f4f4fd;
+	--navy-blue-modal: rgba(46, 47, 66, 0.4);
+	--grey: rgba(46, 47, 66, 0.7);
+	--white: #fff;
+	--dairy: #fcfcfc;
+	--font-family: "Roboto", sans-serif;
+	--second-family: "Raleway", sans-serif;
+}
+
+/* * {
+	margin-block-start: 0;
+	margin-block-end: 0;
+	padding-inline-start: 0;
+} */
+
+body {
+	font-family: var(--font-family);
+	color: var(--navy-blue);
+}
+
+a {
+	text-decoration: none;
+}
+
+li {
+	list-style-type: none;
+}
+
+.container {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.section {
+	padding: 94px 0;
+}
+
+.top-line {
+	background: var(--white);
+	border-bottom: 1px solid var(--cornflower);
+	padding: 24px 0;
+}
+
+.top-line-style {
+	display: flex;
+	justify-content: space-between;
+}
+
+.logo {
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16667;
+	letter-spacing: 0.03em;
+	color: var(--iris);
+}
+
+.logo::after {
+	content: "STUDIO";
+	color: var(--navy-blue);
+}
+
+.navbar-list {
+	display: flex;
+	gap: 40px;
+	margin-right: 100px;
+}
+
+.navbar-list-item {
+	font-family: var(--font-family);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--navy-blue);
+}
+
+.navbar-list-item:hover {
+	color: var(--green);
+}
+
+.contact {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	display: flex;
+	gap: 40px;
+	margin-left: 100px;
+}
+
+.contact a {
+	color: var(--slate);
+}
+
+.contact a:hover {
+	color: var(--green);
+}
+
+.footer-section {
+	background: var(--navy-blue);
+	padding: 100px 0;
+}
+
+.footer-section-style {
+	display: flex;
+	flex-direction: column;
+	gap: 16px;
+	width: 264px;
+}
+
+.footer-logo {
+	font-family: var(--second-family);
+	font-weight: 800;
+	font-size: 18px;
+	line-height: 1.16667;
+	letter-spacing: 0.03em;
+	color: var(--iris);
+}
+
+.footer-logo::after {
+	content: "STUDIO";
+	color: var(--cloud);
+}
+
+.footer-section-style p {
+	font-family: var(--font-family);
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 1.5;
+	letter-spacing: 0.02em;
+	color: var(--cloud);
+}

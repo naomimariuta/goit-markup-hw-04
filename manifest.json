@@ -1,0 +1,46 @@
+{
+  "Client 4": {
+    "width": 168,
+    "height": 88
+  },
+  "Client 1": {
+    "width": 168,
+    "height": 88
+  },
+  "Client 2": {
+    "width": 168,
+    "height": 88
+  },
+  "Client 3": {
+    "width": 168,
+    "height": 88
+  },
+  "Client 6": {
+    "width": 168,
+    "height": 88
+  },
+  "Client 5": {
+    "width": 168,
+    "height": 88
+  },
+  "Icon 2": {
+    "width": 264,
+    "height": 112
+  },
+  "Icon 3": {
+    "width": 264,
+    "height": 112
+  },
+  "Icon 4": {
+    "width": 264,
+    "height": 112
+  },
+  "Icon 1": {
+    "width": 264,
+    "height": 112
+  },
+  "Ellipse": {
+    "width": 40,
+    "height": 40
+  }
+}
