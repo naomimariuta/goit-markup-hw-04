@@ -114,8 +114,7 @@
 }
 
 .social-icon,
-.icon-client,
-.footer-icon {
+.icon-client {
 	color: var(--light-slate);
 }
 
