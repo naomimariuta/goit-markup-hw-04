@@ -1,5 +1,9 @@
 @import url("./style.css");
 
+.filters-section {
+	padding-top: 94px;
+}
+
 .filters-section-list {
 	display: flex;
 	justify-content: center;
@@ -12,7 +16,6 @@
 	padding: 12px 24px;
 	border: 1px solid var(--cornflower);
 	border-radius: 4px;
-	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
 	background: var(--cloud);
 	font-weight: 500;
 	font-size: 16px;
@@ -25,6 +28,8 @@
 .filters-section-list-button:hover {
 	color: var(--white);
 	background: var(--ocean);
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	scale: 1.015;
 	cursor: pointer;
 }
 
@@ -36,6 +41,11 @@
 .project-card {
 	border: 1px solid var(--cornflower);
 	background: var(--white);
+}
+
+.project-card:hover {
+	box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.25);
+	scale: 1.015;
 }
 
 .project-card-info {

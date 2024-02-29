@@ -1,7 +1,7 @@
 @import url("./style.css");
 
 .section-one {
-	background: var(--navy-blue);
+	background: url("../images/Dark-bg.png") no-repeat center, url("../images/people-office.png") no-repeat center;
 	height: 600px;
 	display: flex;
 	justify-content: center;
@@ -49,74 +49,49 @@
 	background: var(--slate);
 }
 
-.section-one-list {
+.section-list {
 	display: flex;
 	justify-content: space-between;
 }
 
-.section-one-list-item h2 {
+.section-list-item h3 {
 	font-weight: 500;
 	font-size: 20px;
 	line-height: 1.2;
 	letter-spacing: 0.02em;
 }
 
-.section-one-list-item p {
+.section-list-item p {
 	font-size: 16px;
 	line-height: 1.5;
 	letter-spacing: 0.02em;
 	color: var(--slate);
 }
 
-.section-one-list-item {
+.section-list-item {
 	width: 264px;
 	display: flex;
 	flex-direction: column;
 	justify-content: space-between;
 }
 
-.section-two {
+.section-style {
 	display: flex;
 	flex-direction: column;
 	gap: 72px;
 }
 
-.section-two h2 {
+.section-style h2 {
 	font-weight: 700;
 	font-size: 36px;
 	line-height: 1.11111;
 	letter-spacing: 0.02em;
 	text-transform: capitalize;
 	text-align: center;
-}
-
-.section-two-list {
-	display: flex;
-	justify-content: space-between;
-}
-
-.section-tree {
-	background: var(--cloud);
 }
 
 .our-team-section {
-	display: flex;
-	flex-direction: column;
-}
-
-.our-team-section h2 {
-	font-weight: 700;
-	font-size: 36px;
-	line-height: 1.11111;
-	letter-spacing: 0.02em;
-	text-transform: capitalize;
-	margin-bottom: 72px;
-	text-align: center;
-}
-
-.card-list {
-	display: flex;
-	justify-content: space-between;
+	background: var(--cloud);
 }
 
 .card {
@@ -135,4 +110,55 @@
 	justify-content: center;
 	gap: 8px;
 	margin-bottom: 32px;
+}
+
+.icon-client {
+	width: 104px;
+	height: 56px;
+}
+
+.icon-client-background {
+	width: 168px;
+	height: 88px;
+	background: var(--white);
+	border: 1px solid var(--light-slate);
+	border-radius: 4px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.icon-benefit {
+	width: 64px;
+	height: 64px;
+}
+
+.icon-benefit-background {
+	width: 264px;
+	height: 112px;
+	background: var(--cloud);
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.social-links-list {
+	display: flex;
+	justify-content: space-between;
+	gap: 24px;
+}
+
+.social-icon svg {
+	width: 16px;
+	height: 16px;
+}
+
+.social-icon {
+	width: 40px;
+	height: 40px;
+	background: var(--iris);
+	border-radius: 50%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 }
