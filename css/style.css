@@ -162,12 +162,23 @@ li {
 	height: 24px;
 }
 
+.footer-icon svg:hover,
+.footer-icon svg:active {
+	color: var(--white);
+}
+
 .footer-icon {
 	width: 40px;
 	height: 40px;
-	background: var(--iris);
+	background: var(--navy-blue);
 	border-radius: 50%;
 	display: flex;
 	justify-content: center;
 	align-items: center;
+}
+
+.footer-icon:hover,
+.footer-icon:active {
+	background: var(--iris);
+	border-radius: 50%;
 }
